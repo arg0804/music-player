@@ -1,0 +1,28 @@
+.songList {
+    margin-top: 20px;
+  }
+  
+.table-header {
+  display: flex;
+  justify-content: space-around;
+  background-color: #cfd0d1;
+  color: #1a1919;
+  padding: 10px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.table-cell-head {
+  text-align: center;
+}
+
+.table-cell-head-track{
+  margin-right: 110px;
+}
+
+.table-footer {
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid #ccc;
+  padding: 10px;
+}
