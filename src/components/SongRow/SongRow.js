@@ -80,11 +80,10 @@ const SongRow = ({ song }) => {
       </div>
       {playing && (
         <div className="table-row-sec">
-          <div className="table-cell" />
-          <div className="table-cell-sec" colSpan="2">
+          <div className="table-cell-min" colSpan="2">
             {Math.floor(sound.seek())}s
           </div>
-          <div className="table-cell">
+          <div className="table-cell-prog">
             <ProgressBar progress={progress} onSeek={handleSeek} />
           </div>
         </div>
